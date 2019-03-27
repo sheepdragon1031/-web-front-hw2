@@ -5,43 +5,41 @@ import Toolbar from '@material-ui/core/Toolbar';
 import { StickyContainer, Sticky } from 'react-sticky';
 
 
-
-const styles = theme => ({
-    root: {
-        flexGrow: 1,
-      },
-      menuButton: {
-        marginLeft: -18,
-        marginRight: 10,
-      },
+const styles =  ({
+    bg:{
+        background: 'aqua',
+        display: 'block',
+        height: '3rem',
+    },
 })
 
 class header extends Component {
     
     render() {
       return (
-        <div className={styles.root}>
-        
-        <Sticky isSticky>
-          {({
-            style,
+        <div>
+                    <Sticky>
+                    {({
+                        style,
 
-            // the following are also available but unused in this example
-            isSticky,
-            wasSticky,
-            distanceFromTop,
-            distanceFromBottom,
-            calculatedHeight
-          }) => (
-            <AppBar position="sticky">
-                <Toolbar variant="dense">
-                    
-                </Toolbar>
-            </AppBar>
-          )}
-          </Sticky>
-            
-      </div>
+                        // the following are also available but unused in this example
+                        isSticky = true,
+                        wasSticky = false,
+                        distanceFromTop = 900,
+                        calculatedHeight = 800,
+                    }) => (
+                        <header style={styles.bg}>
+                        {/* ... */}
+                        </header>
+                    )}
+                    </Sticky>
+                    {/* <AppBar position='relative'>
+                        <Toolbar variant="dense">
+                            
+                        </Toolbar>
+                    </AppBar> */}        
+        </div>
+       
       );
     }
   }

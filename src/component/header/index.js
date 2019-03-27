@@ -6,14 +6,8 @@ import { withStyles } from '@material-ui/core/styles';
 
 import './index.css';
 
-const styles = theme => ({
-  headerTitle: {
-    'line-height': '100vh',
-  },
-  headerGD:{
-    flexGrow: 1,
-    height: `100vh`,
-  }
+const styles = ({
+  
 })
 
 class header extends Component {
@@ -30,7 +24,7 @@ class header extends Component {
                       <Grid item xs={12}>
                         <Typography className="headerTitle" variant="display2"
                         component="h2" align="center" color="inherit" style={styles.headerTitle}>
-                          <span className="fluctlight">做作業好麻煩？</span>
+                          <span className="fluctlight">又壞掉了！幹ＡＡＡ</span>
                         </Typography>
                       </Grid>
                   </Grid>

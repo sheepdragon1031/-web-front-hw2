@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import './App.css';
 import Header from './component/header/index';
 import AppBar from './component/appbar/index';
+import About from './component/about/index';
 import { StickyContainer, Sticky } from 'react-sticky';
 
 const styles = ({
@@ -18,19 +19,14 @@ class App extends Component {
   render() {
     return (
       <div>
-        <StickyContainer>
+        
           <ParallaxProvider>
             <Header />
           </ParallaxProvider>
-          
-            <div style={styles.test}>
+          <StickyContainer> 
               <AppBar />
-             
-            </div>
-            
-          <div className="boxs" style={styles.boxs}>
-                
-                </div>
+              <About />
+              <div className="boxs" style={styles.boxs}></div>
           </StickyContainer>
       </div>
     );

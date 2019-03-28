@@ -18,26 +18,20 @@ class header extends Component {
     render() {
       return (
         <div>
-                    <Sticky>
-                    {({
-                        style,
-
-                        // the following are also available but unused in this example
-                        isSticky = true,
-                        wasSticky = false,
-                        distanceFromTop = 900,
-                        calculatedHeight = 800,
-                    }) => (
-                        <header style={styles.bg}>
-                        {/* ... */}
-                        </header>
-                    )}
-                    </Sticky>
-                    {/* <AppBar position='relative'>
-                        <Toolbar variant="dense">
-                            
-                        </Toolbar>
-                    </AppBar> */}        
+            <Sticky>
+            {({
+                style,
+                // the following are also available but unused in this example
+                isSticky = true,
+                wasSticky = true,
+                distanceFromTop,
+                calculatedHeight,
+            }) => (
+                <AppBar position='relative'>
+                    <Toolbar variant="dense"></Toolbar>
+                </AppBar>
+            )}
+            </Sticky>
         </div>
        
       );

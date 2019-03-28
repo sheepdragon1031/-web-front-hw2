@@ -16,7 +16,7 @@ class header extends Component {
       return (
              <div className='headerBG'>
               <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure" >
-                <Grid container spacing={16} 
+                <Grid container spacing={0} 
                       direction="row"
                       justify="space-between"
                       alignItems="center"

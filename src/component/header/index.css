@@ -2,7 +2,8 @@
     background: url('https://i.imgur.com/LiMgFIa.jpg') no-repeat center;
     background-size: cover;
     height: 100vh;
-    wight: 100vw;
+    width: auto;
+    max-width: 100vw;
 }
 .headerTitle{
     color: #ffffff !important;

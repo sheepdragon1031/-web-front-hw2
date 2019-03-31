@@ -15,12 +15,15 @@ const styles = ({
     },
     test: {
       position: 'relative'
+    },
+    root:{
+      width: 'calc(100% + 8px)',
     }
 })
 class App extends Component {
   render() {
     return (
-      <div>
+      <div style={styles.root}>
         
           <ParallaxProvider>
             <Header />

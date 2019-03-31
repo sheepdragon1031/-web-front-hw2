@@ -5,6 +5,8 @@ import './App.css';
 import Header from './component/header/index';
 import AppBar from './component/appbar/index';
 import About from './component/about/index';
+import Tool from './component/about/tool';
+import Frame from './component/about/frame';
 import { StickyContainer, Sticky } from 'react-sticky';
 
 const styles = ({
@@ -24,9 +26,11 @@ class App extends Component {
             <Header />
           </ParallaxProvider>
           <StickyContainer> 
-              <AppBar />
+              {/* <AppBar /> */}
               <About />
-              <div className="boxs" style={styles.boxs}></div>
+              <Tool />
+              <Frame />
+              {/* <div className="boxs" style={styles.boxs}></div> */}
           </StickyContainer>
       </div>
     );

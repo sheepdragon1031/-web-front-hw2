@@ -28,13 +28,14 @@ class App extends Component {
           <ParallaxProvider>
             <Header />
           </ParallaxProvider>
-          <StickyContainer> 
-              {/* <AppBar /> */}
-              <About />
-              <Tool />
-              <Frame />
-              {/* <div className="boxs" style={styles.boxs}></div> */}
-          </StickyContainer>
+
+                          <AppBar />
+                          <About />
+                          <Tool />
+                          <Frame />
+                     
+             {/* <div className="boxs" style={styles.boxs}></div> */}
+          
       </div>
     );
   }

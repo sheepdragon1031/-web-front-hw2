@@ -25,14 +25,14 @@ class App extends Component {
     return (
       <div style={styles.root}>
         
-          <ParallaxProvider>
-            <Header />
+          <ParallaxProvider >
+            <Header/>
           </ParallaxProvider>
 
-                          <AppBar />
-                          <About />
-                          <Tool />
-                          <Frame />
+          <AppBar />
+          <About/>
+          <Tool />
+          <Frame /> 
                      
              {/* <div className="boxs" style={styles.boxs}></div> */}
           

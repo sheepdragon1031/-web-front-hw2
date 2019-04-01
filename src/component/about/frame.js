@@ -63,7 +63,7 @@ class frame extends Component {
             </Grid>
       )
       return (
-        <div className={classes.root}>
+        <div className={classes.root} id="frame">
             <Grid container className={classes.root} style={style.main} spacing={16} 
                 direction="row"
                 justify="center"

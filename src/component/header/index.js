@@ -14,7 +14,7 @@ class header extends Component {
     
     render() {
       return (
-             <div className='headerBG'>
+             <div className='headerBG' id="index">
               <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure" >
                 <Grid container spacing={0} 
                       direction="row"

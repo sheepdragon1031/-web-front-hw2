@@ -45,7 +45,7 @@ class about extends Component {
         <Grid container className={classes.root} style={style.main} spacing={16} 
         direction="row"
         justify="center"
-        alignItems="center">
+        alignItems="center"  id="about">
           <Paper elevation={0} style={style.paper}>
                <Grid container justify="center" style={style.Hgrid}>
                 <Typography variant="subheading" gutterBottom align="left">

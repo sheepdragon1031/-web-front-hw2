@@ -10,7 +10,7 @@ import grey from '@material-ui/core/colors/grey';
 
 const styles = theme => ({
     paper: {
-        padding: theme.spacing.unit * 2,
+        // padding: theme.spacing.unit * 2,
         textAlign: 'center',
         color: theme.palette.text.secondary,
     },
@@ -51,7 +51,7 @@ class frame extends Component {
         { name: 'Material', image: "https://material.io/tools/icons/static/ic_material_192px_light.svg"}
       ]
       let html = Language.map((arr, index) => 
-            <Grid item xs={4}  key={index}>
+            <Grid item xs={12} sm={4} key={index}>
                 <Paper className={classes.paper}>
                     <Grid container justify="center" >
                         <Avatar alt="codeimg" src={arr.image} style={style.icon} />
@@ -69,9 +69,14 @@ class frame extends Component {
                 justify="center"
                 alignItems="flex-start">
                     <Grid item xs={12} >
-                        <Typography variant="display1" align="center" style={ style.topTitle}>
-                                已知用火後
-                            </Typography>
+                    <Typography variant="display1" align="center" style={ style.title}>
+                              
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={12} >
+                    <Typography variant="display2" align="center" style={ style.topTitle}>
+                        會用的框架    
+                        </Typography>
                     </Grid>
                     {html}
             </Grid>

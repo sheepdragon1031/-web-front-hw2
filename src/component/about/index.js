@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
 import Paper from '@material-ui/core/Paper';
@@ -31,7 +29,8 @@ const style =  ({
       lineHeight: '3rem',
     },
     main: {
-      background: "url('https://i.imgur.com/bTIbBnY.jpg') center center no-repeat ",
+      background: "url('https://i.imgur.com/LiMgFIa.jpg') center center no-repeat ",
+      // https://i.imgur.com/bTIbBnY.jpg
       backgroundSize: 'cover',
       height: '90vh',
     }
@@ -57,12 +56,13 @@ class about extends Component {
               </Grid>
               <Grid container justify="center" style={style.Hgrid}>
                 <Typography variant="title" gutterBottom align="center" style={style.title}>
-                     綿羊龍
+                     蔡銘陽
                   </Typography>
               </Grid>
               <Grid container justify="center" style={style.Hgrid}>
                 <Typography variant="body1" gutterBottom align="center">
-                     就是一隻懶惰的綿羊，怎麼打都不沒有回應
+                     就是一隻訓練有素的猴子，
+                     會人類被調來來處理狀況。
                   </Typography>
               </Grid>
           </Paper> 

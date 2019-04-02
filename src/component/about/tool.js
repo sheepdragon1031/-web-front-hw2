@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 
 const styles = theme => ({
     paper: {
-        padding: theme.spacing.unit * 2,
+        // padding: theme.spacing.unit * 2,
         textAlign: 'center',
         color: theme.palette.text.secondary,
     },
@@ -43,7 +43,7 @@ class about extends Component {
           { name: 'HTML5', image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png?1553847833189"}
       ]
       let html = Language.map((arr, index) => 
-            <Grid item xs={4}  key={index}>
+            <Grid item xs={12}  sm={4}　key={index}>
                 <Paper className={classes.paper}>
                     <Grid container justify="center" >
                         <Avatar alt="codeimg" src={arr.image} style={style.icon} />
@@ -61,13 +61,13 @@ class about extends Component {
         justify="center"
         alignItems="flex-start">
             <Grid item xs={12} >
-                <Typography variant="display2" align="center" style={ style.topTitle}>
-                        一隻羊       
+                <Typography variant="display1" align="center" style={ style.title}>
+                          
                     </Typography>
             </Grid>
             <Grid item xs={12} >
-                <Typography variant="display1" align="center" style={ style.title}>
-                        主要啃的東西        
+                <Typography variant="display2" align="center" style={ style.topTitle}>
+                        主要使用的語言      
                     </Typography>
             </Grid>
             {html}

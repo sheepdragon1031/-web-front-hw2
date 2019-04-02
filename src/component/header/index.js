@@ -24,7 +24,7 @@ class header extends Component {
                       <Grid item xs={12}>
                         <Typography className="headerTitle" variant="display2"
                         component="h2" align="center" color="inherit" style={styles.headerTitle}>
-                          <span className="fluctlight">又壞掉了！幹ＡＡＡ</span>
+                          <span className="fluctlight">以一樣的定義，成為重新定義。</span>
                         </Typography>
                       </Grid>
                   </Grid>

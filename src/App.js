@@ -7,7 +7,6 @@ import AppBar from './component/appbar/index';
 import About from './component/about/index';
 import Tool from './component/about/tool';
 import Frame from './component/about/frame';
-import { StickyContainer, Sticky } from 'react-sticky';
 
 const styles = ({
   boxs: {

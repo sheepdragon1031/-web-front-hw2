@@ -53,7 +53,7 @@ class about extends Component {
                   </Typography>
               </Grid>
               <Grid container justify="center" style={style.Hgrid}>
-                  <Avatar alt="大頭貼" src="https://i.imgur.com/1aq1Zij.gif" href="https://github.com/sheepdragon1031" style={style.myhead} />
+                  <Avatar alt="大頭貼" src="https://i.imgur.com/IGO2GmU.png" href="https://github.com/sheepdragon1031" style={style.myhead} />
               </Grid>
               <Grid container justify="center" style={style.Hgrid}>
                 <Typography variant="title" gutterBottom align="center" style={style.title}>
@@ -63,7 +63,7 @@ class about extends Component {
               <Grid container justify="center" style={style.Hgrid}>
                 <Typography variant="body1" gutterBottom align="center">
                      就是一隻訓練有素的猴子，
-                     會人類被調來來處理狀況。
+                     會寫些程式但卻沒甚特別。
                   </Typography>
                   
               </Grid>

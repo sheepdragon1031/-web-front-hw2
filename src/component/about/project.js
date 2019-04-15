@@ -62,7 +62,7 @@ class frame extends Component {
         { name: '台灣健康促進科技協會', image: "https://i.imgur.com/RkcjYHC.png",
         URL: 'https://tahpt.org/',
         text:[
-            '使用laravel MVC架構',
+            '使用laravel MVC、RWD架構',
             '負責全端開發、前端版型與後端程式',
             '管理員修改、刪除資料等功能'
         ],
@@ -77,7 +77,7 @@ class frame extends Component {
         { name: '億峯娛樂團隊', image: "https://i.imgur.com/ZKNGKJb.png",
         URL:'https://2018yifeng.com',
         text:[
-            '使用laravel MVC架構',
+            '使用laravel MVC、RWD架構',
             '負責全端開發、前端版型與後端程式',
             '會員註冊報名等功能'
         ],

@@ -27,7 +27,7 @@ class header extends Component {
         {text: '首頁', href: '#index'},
         {text: '介紹', href: '#about'},
         {text: '語言', href: '#tool'},
-        {text: '框架', href: '#frame'}
+        {text: '作品', href: '#project'}
     ]
     let html = nav.map((arr, index) => 
         <Grid item xs={3} key={index} align="center">

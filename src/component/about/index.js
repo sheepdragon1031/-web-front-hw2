@@ -3,6 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
 import Paper from '@material-ui/core/Paper';
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 const styles = theme => ({
@@ -52,7 +53,7 @@ class about extends Component {
                   </Typography>
               </Grid>
               <Grid container justify="center" style={style.Hgrid}>
-                  <Avatar alt="大頭貼" src="https://i.imgur.com/1aq1Zij.gif" style={style.myhead} />
+                  <Avatar alt="大頭貼" src="https://i.imgur.com/1aq1Zij.gif" href="https://github.com/sheepdragon1031" style={style.myhead} />
               </Grid>
               <Grid container justify="center" style={style.Hgrid}>
                 <Typography variant="title" gutterBottom align="center" style={style.title}>
@@ -65,6 +66,11 @@ class about extends Component {
                      會人類被調來來處理狀況。
                   </Typography>
                   
+              </Grid>
+              <Grid container  justify="center" >
+                <Button title="前往我的github" color="primary" href="https://github.com/sheepdragon1031" target="_blank">
+                  <Avatar alt="github" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/> 
+                </Button>
               </Grid>
           </Paper> 
        </Grid>

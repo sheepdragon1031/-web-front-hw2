@@ -64,6 +64,7 @@ class about extends Component {
                      就是一隻訓練有素的猴子，
                      會人類被調來來處理狀況。
                   </Typography>
+                  
               </Grid>
           </Paper> 
        </Grid>

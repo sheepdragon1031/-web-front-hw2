@@ -7,6 +7,7 @@ import AppBar from './component/appbar/index';
 import About from './component/about/index';
 import Tool from './component/about/tool';
 import Frame from './component/about/frame';
+import Project from './component/about/project';
 
 const styles = ({
   boxs: {
@@ -32,6 +33,7 @@ class App extends Component {
           <About/>
           <Tool />
           <Frame /> 
+          <Project />
                      
              {/* <div className="boxs" style={styles.boxs}></div> */}
           

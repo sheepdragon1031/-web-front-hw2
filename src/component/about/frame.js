@@ -22,12 +22,13 @@ const styles = theme => ({
 const style =  ({
     body:{
         maxWidth: '80rem' ,
-        margin: 'auto'
+        margin: 'auto',
     },
     main: {
       minHeight: '90vh',
       background: blue[700],
       padding: '1rem',
+      width: '100%',
     },
     topTitle:{
         lineheight: '5rem',

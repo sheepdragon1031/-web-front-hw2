@@ -17,7 +17,7 @@ const styles = ({
       position: 'relative'
     },
     root:{
-      width: 'calc(100% + 8px)',
+      // width: 'calc(100% + 8px)',
     }
 })
 class App extends Component {

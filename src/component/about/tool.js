@@ -22,6 +22,7 @@ const style =  ({
     main: {
       minHeight: '90vh',
       padding: '1rem',
+      width: '100%',
     },
     topTitle:{
         lineheight: '5rem',

@@ -61,7 +61,7 @@ class frame extends Component {
             '前端主要用React',
             '也用過Vue.JS',
         ],},
-        { name: 'Material', image: "https://material.io/tools/icons/static/ic_material_192px_light.svg",
+        { name: 'frontend UI', image: "https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/google-material-design.png",
         text:[
             '前端以Material為主','稍微用過Bootstrap',
         ],

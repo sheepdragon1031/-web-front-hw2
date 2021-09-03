@@ -18,7 +18,8 @@ const styles = theme => ({
     },
     media:{
         width: 'auto',
-        height: 'auto'
+        height: 'auto',
+        maxWidth: '100%',
     },
     root: {
         flexGrow: 1,
@@ -74,14 +75,14 @@ class frame extends Component {
             '負責新增網站報名系統',
             '部分後端系統等功能',
         ],},
-        { name: '億峯娛樂團隊', image: "https://i.imgur.com/ZKNGKJb.png",
-        URL:'https://2018yifeng.com',
-        text:[
-            '使用laravel MVC、RWD架構',
-            '負責全端開發、前端版型與後端程式',
-            '會員註冊報名等功能'
-        ],
-        },
+        // { name: '億峯娛樂團隊', image: "https://i.imgur.com/ZKNGKJb.png",
+        // URL:'https://2018yifeng.com',
+        // text:[
+        //     '使用laravel MVC、RWD架構',
+        //     '負責全端開發、前端版型與後端程式',
+        //     '會員註冊報名等功能'
+        // ],
+        // },
         { name: '康美美容化妝品', image: "https://i.imgur.com/rcMRIA3.png",
         URL: null,
         text:[
@@ -125,8 +126,9 @@ class frame extends Component {
                         >
                         <Grid item xs={12} style={style.CardBN} >
                             {arr.URL? (
-                                <Button  color="primary" href={arr.URL} target="_blank">
-                                    前往
+                                <Button  color="primary"  target="_blank">
+                                    主機到期
+                                    {/* href={arr.URL} */}
                                 </Button>
                             ):(
                                 <Button  color="primary">

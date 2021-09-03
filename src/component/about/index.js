@@ -34,6 +34,8 @@ const style =  ({
       // https://i.imgur.com/bTIbBnY.jpg
       backgroundSize: 'cover',
       height: '90vh',
+      width: '100%',
+      margin: 'auto',
     }
 })
 
